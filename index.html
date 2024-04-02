@@ -14,18 +14,18 @@
         <h1>Formulário de cadastro</h1>
     </header>
     <div class="container">
-        <form id="form">
-            <input type="text" placeholder="Digite seu nome" id="nome" name="nome">
+        <form id="form" name="form">
+            <input type="text" placeholder="Digite seu nome" id="nome" name="nome" required>
             <p>
-                <input type="email" placeholder="Digite seu email" id="email" name="email">
+                <input type="email" placeholder="Digite seu email" id="email" name="email" required>
             </p>
-            <input type="number" placeholder="Digite seu número" id="numero" name="numero" >
+            <input type="number" placeholder="Digite seu número" id="numero" name="numero" required>
             <p>
-                <input type="number" placeholder="Digite seu CPF" id="cpf" name="cpf">
+                <input type="number" placeholder="Digite seu CPF" id="cpf" name="cpf" required>
             </p>
-                <input type="text" placeholder="Digite seu endereço" id="endereco" name="endereco">
+                <input type="text" placeholder="Digite seu endereço" id="endereco" name="endereco" required>
             <p>
-                <input type="number" placeholder="Digite seu CEP" id="cep" name="cep">
+                <input type="number" placeholder="Digite seu CEP" id="cep" name="cep" required>
             </p>
             <button>Enviar</button>
         </form>
@@ -34,6 +34,7 @@
     <script src="https://code.jquery.com/jquery-migrate-3.3.2.min.js"></script>
     <script src="./js/jquery.mask.min.js"></script>
     <script src="./js/jquery.validate.min.js"></script>
+    <script src="js/messages_pt_BR.min.js"></script>
     <script src="./script.js"></script>
 </body>
 </html>

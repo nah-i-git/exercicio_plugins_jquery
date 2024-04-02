@@ -32,6 +32,7 @@ input{
     height: auto;
     border-radius: 3px;
     padding: 5px;
+    margin: 8px;
 }
 
 input[type=number]::-webkit-inner-spin-button, 
